@@ -19,16 +19,18 @@
 <body>
 
 
-<div class="container-fluid">
-    <div class="row">
+	<div class="container-fluid">
+
+		<div class="row">
 			<div class="col-2" style="background-color:#ffd7ba">
-			   <img height ="60px" src="https://i.pinimg.com/564x/0e/93/02/0e93025537f814369e00ed0bcacc7b2a.jpg"class="img-fluid">
-         </img>
-      </div>
+				<img height ="60px" src="https://i.pinimg.com/564x/0e/93/02/0e93025537f814369e00ed0bcacc7b2a.jpg" class="img-fluid">
+        </img>
+       </div>
       <div class="col" style= "background-color:#ffd7ba">
         <br>
         <h1>Site de roupas</h1>
       </div>
+      
     </div><!--linha-->
   <div class="row">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -45,7 +47,7 @@
         <li class="nav-item">
           <a class="nav-link" href="loja.html">loja</a>
         </li>
-        <li class="nav-item">
+         <li class="nav-item">
           <a class="nav-link" href="login.html">login</a>
         </li>
          <li class="nav-item">
@@ -60,29 +62,57 @@
     </nav>
   </div>
   <br>
-  <h1>Efetue o login</h1>
+  <div style="background-color:#f1faee" class="container-fluid">
+   <div class="row"> 
+    <nav class="nav">
+    <img src="https://i.pinimg.com/736x/70/98/a1/7098a1f5ce05bb5319f924dd213bdc12.jpg" class="rounded float-start"  style="width: 5rem;"height="70px">
+    <h1>Meu carrinho</h1>
+    </div>
+   </nav>
   <br>
+  <table class="container-fluid table  table-success table-striped table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">Item</th>
+      <th scope="col">Valor</th>
+      <th scope="col">Frete</th>
+      <th scope="col">TDI</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Camisa</td>
+      <td>R$30,00</td>
+      <td>GRATIS</td>
+      <td>R$30,00</td>
+    </tr>
+    <tr>
+      <td>Short</td>
+      <td>R$30,00</td>
+      <td>R$5,00</td>
+      <td>R$35,00</td>
+    </tr>
+    <tr>
+      <td>Saia</td>
+      <td>R$2,00</td>
+      <td>R$25,00</td>
+      <td>R$27,00</td>
+    </tr>
+  </tbody>
+  <thead>
+    <th scope="col">Total</th>
+    <th colspan="3" style="text-align: center;">R$82,00</td>
+  </thead>
+</table>
+<br>
   <div class="row">
-    <form>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email </label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">.</div>
+    <nav class="nav">
+     <a  class="nav-link" href="loja.html">Ir para loja</a>
+     <a  class="nav-link" href="login.html">Login</a>
+    </nav>
+   </div>
   </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Senha</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1"> Lembrar de mim </label>
-  </div>
-  <a  class="nav-link" href="login.html">Esqueci minha senha</a>
   <br>
-  <button type="submit" class="btn btn-primary">Logar</button>
-</form>
-  </div>
-  <br></br>
   <div class="row" style="background-color:#ffd7ba">
   <nav class="nav">
   <a class="nav-link active" aria-current="page" href="qsomos.html">Quem somos ?</a>
